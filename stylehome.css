@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a1735;
+}
+.navbar{
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 21px;
+    margin-right: 73px;
+}
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar ul a:hover{
+    color: yellow;
+}
+.navbar ul li{
+    padding: 5px 23px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content{
+    display: flex;
+}
+.content-left{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin:30vh auto;
+}
+.content-left .text{
+    font-size: 35px;
+    font-weight: 700;
+}
+.content-left .text span{
+    color: yellowgreen;
+}
+.content-left .text p{
+    font-size: 20px;
+    font-weight: 500;
+}
+#hire{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border: rgb(255, 255, 255) 2px solid;
+    background: rgb(255, 255, 255);
+    cursor:pointer;
+    border-radius: 9px;
+    padding: 3px 20px;
+    color:black;
+    margin: 10px 0px;
+
+}
+#hire:hover{
+   
+ background: none;
+ color: white;
+}
